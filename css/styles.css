@@ -35,8 +35,13 @@ body {
 }
 .header{
     padding-top: 70px;
+    padding-bottom: 90px;
 }
-
+.menu{
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+}
 .menu-link {
  font-family:var(--font-family);
     font-weight: 400;
@@ -46,9 +51,14 @@ body {
 .menu-link:hover {
         color: #03a9f4;
 }
-.gallery {
-    padding-top: 90px;
-    padding-bottom: 90px;
+.gallery-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 65px;
+  row-gap: 130px;
+}
+.gallery-item{
+    width: 420px;
 }
 .gallery-caption{
         font-weight: 300;
