@@ -21,7 +21,7 @@ p {
 }
 
 .container {
-    width: 905px;
+    width: 935px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -47,6 +47,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     color: #7d7d7d;
+    text-transform: uppercase;
 }
 .menu-link:hover {
         color: #03a9f4;
