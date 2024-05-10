@@ -69,4 +69,18 @@ body {
 .gallery-title {
     font-size: 30px;
 }
+.button{
+    display: block;
+    margin:90px  auto;
+    padding: 20px 10px;
+    background-color:transparent ;
+}
 
+.gallery-title{
+    padding-bottom: 40px;
+    padding-top: 32px;
+}
+
+.gallery-caption{
+    padding-top: 32px;
+}
