@@ -1,0 +1,10 @@
+.button {
+    display: block;
+    margin: 90px auto;
+    padding: 20px 10px;
+    background-color: transparent;
+}
+.button:hover{
+    background-color: $accent-color;
+    color: ghostwhite;
+}

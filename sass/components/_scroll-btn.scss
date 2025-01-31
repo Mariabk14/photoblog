@@ -1,0 +1,21 @@
+.scrol-btn {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    display: block;
+    width: 90px;
+    height: 90px;
+    border: 1px solid #626262;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scrol-btn:hover {
+    background-color: #03a9f4;
+}
+
+.scrol-btn:hover .scrol-icon {
+    fill: #fff;
+}
